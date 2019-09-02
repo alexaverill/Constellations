@@ -40,7 +40,7 @@ public class Controller : Node2D
                 Line2D newLine = new Line2D();
                 newLine.AddPoint(leaves[x].Position);
                 newLine.AddPoint(leaves[y].Position);
-                newLine.SetWidth(5);
+                newLine.SetWidth(2);
                 AddChild(newLine);
                 lines.Add(newLine);
             }
